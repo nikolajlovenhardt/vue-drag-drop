@@ -41,8 +41,7 @@
 			},
 			hideImageStyle: () => ({
 					position: 'fixed',
-					top: '-1000px',
-					opacity: 0,
+					top: '-100000px',
 			}),
 		},
 		methods: {
