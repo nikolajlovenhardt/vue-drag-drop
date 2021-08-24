@@ -39,7 +39,11 @@
 			scopedData() {
 				return this.dragging && this.transferData;
 			},
-			hideImageStyle: () => ({ position: 'fixed', top: '-1000px' }),
+			hideImageStyle: () => ({
+					position: 'fixed',
+					top: '-1000px',
+					opacity: 0,
+			}),
 		},
 		methods: {
 			emitEvent(name, nativeEvent) {
